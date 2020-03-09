@@ -1,2 +1,3 @@
-# ome-speedrun-layout
-NodeCG layout bundle for RTA 1n Kagawa Online.
+# nodecg-vue-ts-template
+
+NodeCG bundle template with Vue.ts and Vuex
