@@ -7,18 +7,16 @@ import { ReplicantMap } from '../nodecg/replicants';
 import { MessageMap } from '../nodecg/messages';
 
 declare global {
-  interface Window {
-    nodecg: CreateNodecgInstance<
-      'ome-speedrun-layout',
+    const nodecg: CreateNodecgInstance<
+      'nodecg-vue-ts-template',
       {},
       ReplicantMap,
       MessageMap
     >;
-    NodeCG: CreateNodecgConstructor<
-      'ome-speedrun-lalyout',
+    const NodeCG: CreateNodecgConstructor<
+      'nodecg-vue-ts-template',
       {},
       ReplicantMap,
       MessageMap
     >;
-  }
 }
